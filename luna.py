@@ -63,7 +63,7 @@ async def repo(_, message):
 async def start(_, message):
     await luna.send_chat_action(message.chat.id, "typing")
     await sleep(2)
-    await message.reply_text("/repo - Get Repo Link")
+    await message.reply_text("Ne bakyon yarrağım")
 
 
 @luna.on_message(
